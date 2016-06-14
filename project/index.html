@@ -1,0 +1,21 @@
+---
+title: Ghana's biggest classical music review site
+layout: base
+description: Choral Music Ghana is the home of the best news, reviews and features from Ghana's serious art music scene
+---
+
+{% assign post = site.posts.first %}
+<h1>{{post.title}}</h1>
+<div class="row">
+	<div class="col-md-7">
+		<img class="img-responsive" src="/img/posts/{{post.featureimage}}">
+	</div>
+	<div class="col-md-5">
+		<p>{{post.content | truncatewords: 77}}</p>
+		<a href="{{post.url}}">
+			<button class="btn btn-default">
+				CONTINUE READING
+			</button>
+		</a>
+	</div>
+</div>

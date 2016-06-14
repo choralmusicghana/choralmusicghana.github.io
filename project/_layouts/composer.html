@@ -1,0 +1,23 @@
+{% include head.html %}
+
+  {% include nav.html %}
+  {% include cover.html %}
+
+  <div class="col-md-8 center">
+
+  	<div class="row">
+	  	<div class="col-md-7">
+	  		<img class="img-responsive" src="/img/composers/{{page.photo}}">
+	  	</div>
+	  	<div class="col-md-5">
+  			<h1>{{page.name}}</h1>
+	  		<p>{{page.layout}}</p>
+	  		<p>{{page.photo}}</p>
+	  		<p>{{page.name}}</p>
+	  	</div>
+  	</div>
+
+    	{{content}}
+  </div>
+
+{% include foot.html %}

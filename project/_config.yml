@@ -1,0 +1,15 @@
+name: "Choral Music Ghana"
+description: "Promoting choral and classical music in Ghana"
+permalink: pretty
+
+# music contains YouTube videos of performances we talk about
+# reviews are our reviews
+# galleries are image galleries of concerts
+# composers contains composer profiles...
+# ...and links to scores we've uploaded, ala albums example
+
+collections:
+ composers:
+  output: true
+ # - music
+ # - galleries
