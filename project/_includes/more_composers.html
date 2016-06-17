@@ -1,0 +1,11 @@
+<!-- more -->
+<div class="row more">
+	<h2 class="text-center">More Composers</h2>
+	{% for composer in site.composers %}
+		<div class="col-md-3">
+			<a href="{{composer.url}}">
+				{{composer.name}}
+			</a>
+		</div>
+	{% endfor %}
+</div>

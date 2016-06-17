@@ -5,19 +5,53 @@
 
   <div class="col-md-8 center">
 
+<!-- picture and stats -->
   	<div class="row">
-	  	<div class="col-md-7">
+	  	<div class="col-md-6">
 	  		<img class="img-responsive" src="/img/composers/{{page.photo}}">
 	  	</div>
-	  	<div class="col-md-5">
+	  	<div class="col-md-6">
   			<h1>{{page.name}}</h1>
-	  		<p>{{page.layout}}</p>
-	  		<p>{{page.photo}}</p>
-	  		<p>{{page.name}}</p>
+  			<hr>
+  			<div class="well">
+		  		<p>{{page.years}}</p>
+		  		<p>{{page.legend}}</p>
+		  		<p><a href="{{page.link}}" target="_blank">{{page.link_name}}</a></p>
+  			</div>
 	  	</div>
   	</div>
 
-    	{{content}}
+<!-- bio/content -->
+    <div class="">
+    	<h2>Biography</h2>
+      {{content}}
+    </div>
+
+<!-- works -->
+    <div class="">
+      <h2>Selected Works by {{page.name}} </h2>
+      <table class="table table-striped">
+        <thead>
+          <td>Title</td>
+          <td>Type</td>
+          <td>Date</td>
+        </thead>
+        <tbody>
+          {% for w in page.works %}
+            
+          <tr>
+            <td><a href="{{w.link}}" target="_blank">{{w.title}}</a></td>
+            <td>{{w.type}}</td>
+            <td>{{w.date}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- end! -->
+
+    {% include more_composers.html %}
   </div>
 
 {% include foot.html %}

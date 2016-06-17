@@ -123,6 +123,10 @@ h2{
 	padding: 0px;
 }
 
+.well{
+	border-radius: 0px;
+}
+
 .more{
 	padding-top: 50px;
 	padding-bottom: 30px;
