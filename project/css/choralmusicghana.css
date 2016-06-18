@@ -133,6 +133,16 @@ h2{
 	font-size: 15px;
 }
 
+thead{
+	background: #000000;
+	color: #FFFFFF;
+	font-family: arapey-it;
+}
+
+td a{
+	color: #000000;
+}
+
 footer{
 	background: #000000;
 	color: #FFFFFF;

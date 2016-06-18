@@ -7,16 +7,19 @@
 
 <!-- picture and stats -->
   	<div class="row">
-	  	<div class="col-md-6">
+	  	<div class="col-md-7">
 	  		<img class="img-responsive" src="/img/composers/{{page.photo}}">
 	  	</div>
-	  	<div class="col-md-6">
+	  	<div class="col-md-5">
   			<h1>{{page.name}}</h1>
-  			<hr>
+  			<!-- <hr> -->
   			<div class="well">
 		  		<p>{{page.years}}</p>
 		  		<p>{{page.legend}}</p>
-		  		<p><a href="{{page.link}}" target="_blank">{{page.link_name}}</a></p>
+          {% for link in page.links %}
+            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+		  		  <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+          {% endfor %}
   			</div>
 	  	</div>
   	</div>
@@ -34,15 +37,28 @@
         <thead>
           <td>Title</td>
           <td>Type</td>
-          <td>Date</td>
+          <!-- <td>Date</td> -->
+          <td></td>
         </thead>
         <tbody>
           {% for w in page.works %}
             
           <tr>
-            <td><a href="{{w.link}}" target="_blank">{{w.title}}</a></td>
+            <td>{{w.title}}</a></td>
             <td>{{w.type}}</td>
-            <td>{{w.date}}</td>
+            <!-- <td>{{w.date}}</td> -->
+            <td>
+              {% if w.media_link %}
+                <a href="{{w.media_link}}" target="_blank">
+                  <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
+                </a>
+              {% endif %}
+              {% if w.score %}
+                <a href="{{w.score}}" target="_blank">
+                  <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                </a>
+              {% endif %}
+            </td>
           </tr>
           {% endfor %}
         </tbody>
