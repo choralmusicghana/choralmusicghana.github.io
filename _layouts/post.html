@@ -3,11 +3,18 @@
   {% include nav.html %}
   {% include cover.html %}
 
-  <div class="col-md-8 center">
-  	<h1>{{page.title}}</h1>
-  	<hr>
-    {{content}}
-    {% include more.html %}
-  </div>
+	<div class="col-md-8 center">
+		<h1>
+  			{{page.title}}
+	  		<span>			
+	  			<button class="btn btn-default">
+	  				{{page.category | upcase}}
+	  			</button>
+	  		</span>
+  		</h1>
+  		<hr>
+    	{{content}}
+    	{% include more.html %}
+	</div>
 
 {% include foot.html %}
