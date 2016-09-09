@@ -13,3 +13,19 @@ collections:
   output: true
  # - music
  # - galleries
+defaults:
+- 
+  scope:
+   path: ""
+   type: "posts"
+  values:
+   fbcomments: true
+   fbshare: true
+   disquscomments: true
+
+- 
+  scope:
+   path: ""
+   type: "composers"
+  values:
+   fbshare: true

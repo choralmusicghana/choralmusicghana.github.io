@@ -14,6 +14,19 @@
   		</h1>
   		<hr>
     	{{content}}
+    	{% if page.fbshare %}
+    		{% include fb_share.html %}
+    	{% endif %}
+    	{% if page.fbcomments %}
+    		<div class="col-md-8 center">
+    			{% include fb_comments.html %}
+    		</div>
+    	{% endif %}
+      {% if page.disquscomments %}
+        <div class="col-md-8 center">
+          {% include disqus_comments.html %}
+        </div>
+      {% endif %}
     	{% include more.html %}
 	</div>
 

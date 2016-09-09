@@ -133,6 +133,13 @@ h2{
 	font-size: 15px;
 }
 
+.panel-default > .panel-heading{
+	background: #000000;
+}
+.panel-title{
+	color: #FFFFFF;
+}
+
 thead{
 	background: #000000;
 	color: #FFFFFF;
