@@ -10,12 +10,18 @@
 	font-family: voll;
 	src: url('../fonts/voll.ttf');
 }
-
+@font-face {
+	font-family: med;
+	src: url('../fonts/medium.woff');
+}
 body{
 	padding-top: 70px;
-	font-family: voll;
-	font-size: 17px;
-	line-height: 1.6;
+	font-family: med;
+	font-size: 21px;
+	line-height: 1.58;
+	color: rgba(0,0,0,.75);
+	font-weight: normal;
+	letter-spacing: .003em;
 }
 
 .navbar-default{
@@ -105,8 +111,13 @@ h2{
 
 .img-responsive{
 	box-shadow: 0px 2px 9px #CCAEAE;
-	margin: 6px;
-	margin-bottom: 15px;
+	/*margin: 6px;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.img-feature{
+	margin: 15px;
 }
 
 @media  (max-width: 800px) {
@@ -131,6 +142,7 @@ h2{
 	padding-top: 50px;
 	padding-bottom: 30px;
 	font-size: 15px;
+	color: rgba(0,0,0,.7);
 }
 
 .panel-default > .panel-heading{

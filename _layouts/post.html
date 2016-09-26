@@ -3,7 +3,7 @@
   {% include nav.html %}
   {% include cover.html %}
 
-	<div class="col-md-8 center">
+	<div class="col-md-6 center">
 		<h1>
   			{{page.title}}
 	  		<span>			
@@ -17,17 +17,19 @@
     	{% if page.fbshare %}
     		{% include fb_share.html %}
     	{% endif %}
+  </div>
+  <div class="col-md-7 center">
     	{% if page.fbcomments %}
-    		<div class="col-md-8 center">
+    		<div class="">
     			{% include fb_comments.html %}
     		</div>
     	{% endif %}
       {% if page.disquscomments %}
-        <div class="col-md-8 center">
+        <div class="">
           {% include disqus_comments.html %}
         </div>
       {% endif %}
-    	{% include more.html %}
-	</div>
+    {% include more.html %}
+  </div>
 
 {% include foot.html %}
