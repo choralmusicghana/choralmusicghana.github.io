@@ -1,27 +1,26 @@
 [
 	{
-		"src":"CL3-1",
-		"title":"Title 1",
-		"subtitle":"Lorem Ipsum is a funny latin sentence. Lol. Bite me."
+		"src":"cmg-1237",
+		"title":"Handel's Joseph and his Brethren in Accra",
+		"subtitle":"Ghana's most celebrated choir makes history with this obscure oratorio.",
+		"link": "http://bit.ly/2czDoFR"
 	},
 	{
-		"src":"cmg-2184",
-		"title":"Title 2",
-		"subtitle":"Lorem Ipsum is a funny latin sentence. Lol. Bite me."
+		"src":"cmg-3629",
+		"title":"Accra goes to the Opera",
+		"subtitle":"Lumina and the Accra Symphony Orchestra present a dazzling array of operatic numbers.",
+		"link": "http://bit.ly/2czDoFR"
 	},
 	{
-		"src":"cmg-2087",
-		"title":"Title 3",
-		"subtitle":"Lorem Ipsum is a funny latin sentence. Lol. Bite me."
+		"src":"cmg-1632",
+		"title":"Catholic Choirs Thrill at Choralfest 2017",
+		"subtitle":"The University of Ghana hosts its largest Choralfest yet.",
+		"link": "http://bit.ly/2pkdnfk"
 	},
 	{
-		"src":"cmg-3708",
-		"title":"Title 4",
-		"subtitle":"Lorem Ipsum is a funny latin sentence. Lol. Bite me."
-	},
-	{
-		"src":"cmg-2796",
-		"title":"Title 5",
-		"subtitle":"Lorem Ipsum is a funny latin sentence. Lol. Bite me."
+		"src":"lau-5",
+		"title":"Addaquay's Oratorio",
+		"subtitle":"The young composer showcases his appreciation and mastery of the Baroque style.",
+		"link": "http://bit.ly/2rkgJR1"
 	}
 ]
