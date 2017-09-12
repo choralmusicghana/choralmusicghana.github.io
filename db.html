@@ -1,0 +1,33 @@
+---
+title: The CMG Score Archive
+layout: base
+description: Choral Music Ghana has compiled the largest publicly available repository of "public domain" scores from Ghanaian composers
+---
+
+<h1>The Ghanaian Music Database</h1>
+<hr>
+<p>
+	As part of our drive to make Ghanaian art music more accessible, we have opened to the public our searchable archive of original compositions by Ghanaian musicians past and present. This archive represents music that is currently in the public domain within the country.<br>
+	Among the works availabe here are those by illustrious composers and rising stars within the country. To make use of this database, enter the name of any popular Ghanaian composer, or song/piece title. All available scores are in PDF.
+</p>
+<br>
+{% raw- %}
+<div ng-app="scoresearch">
+    <div ng-controller="mainCtrl" class="container col-md-8 center">    
+      <form>
+        <input ng-model="searchquery" class="form-control" type="text" name="query" placeholder="Enter a composer or a piece of music...">
+        <button ng-click="search()" class="btn btn-default" type="submit" name="submit">Search the Database</button>
+      </form>
+      <div>
+        <h3 ng-hide="searchResults.length == 0">Search Results</h3>
+        <ol ng-cloak>
+        	<p ng-show="noResults">No results were found!</p>
+        	<li ng-repeat="match in searchResults">
+            	{{match.metadata.name}} 
+            	<button ng-click="downloadScore(match.metadata)" class="btn btn-default">Download Now!</button>
+        	</li>
+        </ol>
+      </div>
+    </div>
+</div>
+{% endraw- %}
