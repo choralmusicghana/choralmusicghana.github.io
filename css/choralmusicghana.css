@@ -103,6 +103,10 @@ h2{
 	padding-bottom: 20px;
 }
 
+p{
+	text-align: justify-all;
+}
+
 .center{
 	float: none;
 	margin-left: auto;
