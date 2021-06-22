@@ -1,27 +1,21 @@
 [
 	{
+		"src": "kkf-7802",
+		"title": "2020 in Review",
+		"subtitle": "2020 was a fascinating year. The editor takes us through the ups and downs of a most eventful 12 months.",
+		"link": "https://bit.ly/38MhyZY"
+	},
+	{
+		"src": "nketiaonehundred",
+		"title": "Joseph Hanson Kwabena Nketia",
+		"subtitle": "In his centenary year, Choral Music Ghana remembers an icon of Ghanaian music.",
+		"link": "http://bit.ly/2PLd2kz"
+	},
+	{
 		"src": "cmg-4365",
 		"title":"Achimota School Revives The Pirates of Penzance",
 		"subtitle":"The famous operetta taps into the opportunity for musical theatre in Ghana.",
 		"link": "http://bit.ly/2yqC3uk"
-	},
-	{
-		"src": "olive-4",
-		"title": "The Ghanaian Organ Maker",
-		"subtitle": "We speak to Mr. Samuel Ekow Kwofie about his venture into the organ making business.",
-		"link": "http://bit.ly/2PLd2kz"
-	},
-	{
-		"src": "cmg-5787",
-		"title": "2018 in Review",
-		"subtitle": "2018 was a year of huge strides on our industry. The editor takes us through the big moments of the last year.",
-		"link": "http://bit.ly/2Rc6oaO"
-	},
-	{
-		"src": "acn-9648",
-		"title": "Afro Classical Nights",
-		"subtitle": "The monthly classical music show begins at the African Regent Hotel!",
-		"link": "http://bit.ly/2R8tydQ"
 	},
 	{
 		"src": "naa-ashami",
@@ -34,11 +28,5 @@
 		"title":"Handel's Joseph and his Brethren in Accra",
 		"subtitle":"Choral Music Ghana reviews the historic concert",
 		"link": "http://bit.ly/2vbcb0R"
-	},
-	{
-		"src":"cmg-3629",
-		"title":"Accra goes to the Opera",
-		"subtitle":"Lumina and the Accra Symphony Orchestra present a dazzling array of operatic numbers.",
-		"link": "http://bit.ly/2czDoFR"
 	}
 ]
